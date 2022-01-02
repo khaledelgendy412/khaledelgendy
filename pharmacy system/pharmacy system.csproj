@@ -72,6 +72,7 @@
     <Content Include="image\parms.jpeg" />
     <Content Include="Login Page.aspx" />
     <Content Include="Regestration page.aspx" />
+    <Content Include="testgethub.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +104,13 @@
     </Compile>
     <Compile Include="Regestration page.aspx.designer.cs">
       <DependentUpon>Regestration page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testgethub.aspx.cs">
+      <DependentUpon>testgethub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testgethub.aspx.designer.cs">
+      <DependentUpon>testgethub.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
